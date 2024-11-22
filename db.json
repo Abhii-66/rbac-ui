@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Abhi",
+      "role": "Admin",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    { "id": 1, "role": "Admin" },
+    { "id": 2, "role": "Editor" },
+    { "id": 3, "role": "Viewer" }
+  ],
+  "permissions": [
+    { "role": "Admin", "permissions": ["Read", "Write", "Delete"] },
+    { "role": "Editor", "permissions": ["Read", "Write"] },
+    { "role": "Viewer", "permissions": ["Read"] }
+  ]
+}
